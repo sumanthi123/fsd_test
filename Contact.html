@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device=width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+
+        body{
+            background-color:cadetblue;
+            background-image: url();
+            opacity: ;
+        }
+        h1{
+            font-family:Arial, Helvetica, sans-serif ;
+            color: blue;
+            text-align: center;
+        }
+        .container{
+            width: 500px;
+            margin:auto
+
+
+        }
+        input, select, textarea {
+
+            width: 100%;
+            color:blueviolet;
+            font-weight: bold;
+            font-size: x-large;
+
+
+        }
+        label{
+            font-size: medium;
+            color: rgb(255, 182, 127);
+        }
+        button{
+            background-color: beige;
+            color: rgb(122, 76, 16);
+            font-size: larger;
+        }
+
+    </style>
+</head>
+<body>
+    <h1> Contact Us</h1>
+    <div class="container">
+        <form action="Home.html" method="post">
+            <div>
+                
+                <label> Full Name </label>
+                <input type="text" id="Full Name" placeholder="Enter Full Name"/>
+            </div>
+              <br></br>
+            <div>
+            
+                <label> Email </label>
+                <input type="Email" id="Email" placeholder="Enter Email"/>
+            </div>
+            <br><br>
+            <div>
+                <label for="password"> Password </label>
+                <input type="Password" id="Password" name="password" placeholder="Enter Password" required/>
+             
+            </div>
+            <br><br>
+            <div>
+                <label> Age </label>
+                <input type="number" id="Age" placeholder="Enter Your Age"/>
+             
+            </div>
+            <br><br>
+            <div>
+                <label> DOB </label>
+                <input type="Date" id="DOB"  required/>
+             
+            </div>
+            <br><br>
+            <div>
+                <label> Phone </label>
+                <input type="Tel" id="Phone" />
+             
+            </div>
+            <br><br>
+            <div>
+                <label> Experience </label>
+                <input type="Range" Min="1" Max="5" id="Experience" />
+             
+            </div>
+            <br><br>
+            <div>
+                <label> Upload Resume </label>
+                <input type="File"  id="Resume"
+             
+            </div>
+             </div>
+            <br><br>
+            <div style="color: blue; text-shadow: 0cqmax; font-size: x-large;">
+                <label> Gender </label>
+                <input type="radio" name="gender" value="male" /> male
+                <input type="radio" name="gender" value="female" /> female
+             <br><br>
+            <div>
+                <label> Skills </label>
+                <input type="checkbox" name="Skills" value="Java" /> Java
+                <input type="checkbox" name="skills" value="HTML" /> HTML
+                <input type="checkbox" name="Skills" value="Node" /> Node
+                <input type="checkbox" name="skills" value="React" /> React
+            </div>
+            <br><br>
+            <div>
+                <label> Country </label>
+                <select Name="Country">
+                   <option> India </option>
+                    <option> UK </option>
+                     <option> Canada </option>
+                      <option> USA </option>
+
+                    
+                </select> 
+            </div>
+            <br><br>
+            <div>
+                <lable> Address</lable>
+                <textarea rows="15" columns="15" placeholder="Enter tour text">  </textarea>
+            </div>
+            <br><br>
+            <div>
+                <label> Search </label>
+                <input type="Search" id="Search" placeholder="Search Here"/>
+                <br><br>
+                <button type="submit">Submit</button>
+                <button type="reset">Reset</button>
+             
+            </div>
+
+        </form>
+    </div>
+</body>
+</html>
